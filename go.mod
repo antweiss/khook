@@ -5,12 +5,13 @@ go 1.24.6
 require (
 	github.com/go-logr/logr v1.4.3
 	github.com/kagent-dev/kagent/go v0.0.0-20250827151700-a9cc8a1f7d57
-	github.com/stretchr/testify v1.10.0
+	github.com/stretchr/testify v1.11.1
 	gopkg.in/yaml.v2 v2.4.0
 	k8s.io/api v0.33.3
 	k8s.io/apimachinery v0.33.4
 	k8s.io/client-go v0.33.3
 	sigs.k8s.io/controller-runtime v0.21.0
+	trpc.group/trpc-go/trpc-a2a-go v0.2.3
 )
 
 require (
@@ -97,5 +98,4 @@ require (
 	sigs.k8s.io/randfill v1.0.0 // indirect
 	sigs.k8s.io/structured-merge-diff/v4 v4.6.0 // indirect
 	sigs.k8s.io/yaml v1.6.0 // indirect
-	trpc.group/trpc-go/trpc-a2a-go v0.2.3 // indirect
 )
